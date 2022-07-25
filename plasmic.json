@@ -1,0 +1,65 @@
+{
+  "platform": "react",
+  "code": {
+    "lang": "ts",
+    "scheme": "blackbox",
+    "reactRuntime": "classic"
+  },
+  "style": {
+    "scheme": "css-modules",
+    "defaultStyleCssFilePath": "plasmic/plasmic__default_style.css"
+  },
+  "images": {
+    "scheme": "files",
+    "publicDir": "../../public",
+    "publicUrlPrefix": "/static/"
+  },
+  "tokens": {
+    "scheme": "theo",
+    "tokensFilePath": "plasmic-tokens.theo.json"
+  },
+  "srcDir": "src/components",
+  "defaultPlasmicDir": "./plasmic",
+  "projects": [
+    {
+      "projectId": "27w6HRG5rhRJEm5G2aqSLD",
+      "projectApiToken": "a0LvR55Ha5Cg0sZMwdjABYIkvFtcqVUBuICHhY80a1OXKXLh03NomQN8inJEfXdhW23Wyxfvlp8PDtbrRmg",
+      "projectName": "Component A",
+      "version": "latest",
+      "cssFilePath": "plasmic/component_a/plasmic_component_a.module.css",
+      "components": [
+        {
+          "id": "0KvWPFEThs",
+          "name": "Table",
+          "type": "managed",
+          "projectId": "27w6HRG5rhRJEm5G2aqSLD",
+          "renderModuleFilePath": "plasmic/component_a/PlasmicTable.tsx",
+          "importSpec": {
+            "modulePath": "Table.tsx"
+          },
+          "cssFilePath": "plasmic/component_a/PlasmicTable.module.css",
+          "scheme": "blackbox",
+          "componentType": "component"
+        }
+      ],
+      "icons": [],
+      "images": [],
+      "indirect": false,
+      "globalContextsFilePath": "",
+      "codeComponents": []
+    }
+  ],
+  "globalVariants": {
+    "variantGroups": [
+      {
+        "id": "mP1ahWPSMhSPH",
+        "name": "Screen",
+        "projectId": "27w6HRG5rhRJEm5G2aqSLD",
+        "contextFilePath": "plasmic/component_a/PlasmicGlobalVariant__Screen.tsx"
+      }
+    ]
+  },
+  "wrapPagesWithGlobalContexts": true,
+  "cliVersion": "0.1.184",
+  "$schema": "https://unpkg.com/@plasmicapp/cli@0.1.184/dist/plasmic.schema.json"
+}
